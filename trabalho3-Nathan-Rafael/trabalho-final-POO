@@ -1,0 +1,48 @@
+Projeto Final POO
+
+Banco => Nome ??
+
+	Classes
+			Banco
+			cliente
+			cartão de credito
+	
+
+		Métodos
+	Banco
+
+		calculo dos juros
+		gerar boleto
+		cadastro de clientes
+		verificar cliente ja existente
+		gerar cartões
+		(verifica validade do cartão, verifica senha)
+		bloquear/ desbloquear cartão
+		excluir cliente/ cadastro/ cartão
+		substituir cartão do cliente
+
+	Boleto
+
+		gerar documento com cod. de barras e informações do cliente/ banco
+		
+	Cliente 
+	
+		solicitar boleto
+		pagar boleto
+		fazer  compras
+		verificar extrato
+		solicitar aumento do limite
+		solicitar bloqueio/desbloqueio de cartão
+		solicitar cancelamento da conta
+		solicitar novo cartão
+
+	Cartão de Credito [estrategia/fabrica](Normal/ Gold/ Fidelidade)
+	(padrao estado do cartão)
+
+		numero
+		senha
+		bloqueado (true/false)
+
+	Tempo
+
+		realizar virada dos meses
